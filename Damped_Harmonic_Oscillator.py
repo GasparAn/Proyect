@@ -90,5 +90,5 @@ plt.plot(u, v, label='Sol. Numérica')
 plt.ylabel('Velocidad (V)')
 plt.xlabel('Posición (x)')
 plt.legend(loc='best')
-plt.title('Espacio de fase') #para observar el punto de convergencia
+plt.title('Espacio de fase') #para observar el punto de convergencia 
 plt.grid(True)
