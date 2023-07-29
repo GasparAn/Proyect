@@ -36,7 +36,7 @@ v0 = 0.0  # velocidad inicial
 u0 = 1.0  # posición inicial
 
 # Tiempo
-t = np.linspace(0, 40, 4000)  # Intervalo de tiempo de 0 a 100 con 10000 puntos
+t = np.linspace(0, 40, 4000)  # Intervalo de tiempo de 0 a 40 con 4000 puntos
 
 # Resolver la ecuación diferencial de forma numérica utilizando odeint
 sol = odeint(differential_equations, [v0, u0], t, args=(m, b, k))
